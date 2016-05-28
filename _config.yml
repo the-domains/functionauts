@@ -1,14 +1,26 @@
 layout_spectrum: 0.1397497
-typography_spectrum: 0.4217272
-color:
-  lightness: 0.02104472
-  brandStrength: 0.6922067
-  saturation: 0.8962101
-  rhythmicContrast: 0.1471043
-  brandColors:
-    - '#9D2D3C'
-    - '#DDE4DD'
-    - '#BCAB47'
-    - '#6B574B'
-    - '#160600'
 name: functionauts
+collections:
+  - index:
+      navigable: true
+      path: /
+      number: 15
+      paginate: true
+    feed:
+      format: rss
+      path: /rss.xml
+      number: 10
+    permalink:
+      path: '/:title/'
+color:
+  brandStrength: 0
+  lightness: 1
+  saturation: 0
+  rhythmicContrast: 1
+  brandColors:
+    - '#201628'
+    - '#000000'
+    - '#5F3760'
+    - '#605285'
+    - '#1B0F20'
+typography_spectrum: 0.3787234
